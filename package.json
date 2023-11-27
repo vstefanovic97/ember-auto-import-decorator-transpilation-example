@@ -1,0 +1,21 @@
+{
+  "name": "eai-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "my-addon/my-addon",
+    "my-addon/test-app",
+    "my-app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "18.18.2",
+    "npm": "9.8.1"
+  }
+}
